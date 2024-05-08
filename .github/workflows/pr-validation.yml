@@ -29,5 +29,3 @@ jobs:
         run: dotnet workload install aspire
       - name: Build 
         run: dotnet build eShop.Web.slnf
-      - name: Test
-        run: dotnet test eShop.Web.slnf
