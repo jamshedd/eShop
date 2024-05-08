@@ -2,6 +2,7 @@
 
 public class CustomTabbedPage : TabbedPage
 {
+
     public static BindableProperty BadgeTextProperty =
         BindableProperty.CreateAttached("BadgeText", typeof(string), typeof(CustomTabbedPage), default(string));
 
