@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using CommunityToolkit.Maui.Converters;
 
+
 namespace eShop.ClientApp.Converters;
 
 public class DoubleConverter : BaseConverter<double, string>
